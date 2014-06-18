@@ -1,6 +1,6 @@
 Wearable-Computing-Course-Project
 =================================
-This repository contains the script and other files for the course project for the "Getting and Cleaning Data" class offered by Coursera.  It contains nn R script: run_analysis.R which does the following:
+This repository contains the script for the course project for the "Getting and Cleaning Data" class offered by Coursera.  The R script, run_analysis.R, does the following:
 
 1) It assumes that you have downloaded the data files for the home work assignment
    and that your working directory contains the folder "UCI HAR Dataset" which 
