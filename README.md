@@ -162,8 +162,7 @@ Add the subject and activity columns to the data.
 
 `setnames(test_data,1:2,c("Participant","Activity"))`
 
-Combine the training and test data sets. Then, melt to achieve simplicity.
-The melted data is the simple data set for the exercise.
+Combine the training and test data sets. Write out the data as the tidy data set.
 
 `all_data<-rbind(training_data,test_data)`
 
