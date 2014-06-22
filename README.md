@@ -53,7 +53,7 @@ Subset the variable names to the ones we'll be using.
 We want variables that contain one of two strings that could occur anywhere in the variable name.
  '-mean()' or '-std()' 
 These are means and standard deviations, respectively.
-One of these variables has actual values and the other has logical values, which we'll use later
+`variable_names` has actual values and `variable_names_logical` has logical values, which we'll use later
 to select columns from the data.
 
 `variable_names<-grep("[-]mean[()]|std[()]",variable_names_all$V2, value=TRUE)`
